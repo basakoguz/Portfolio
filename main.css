@@ -58,6 +58,16 @@
 .icons {
     float: right;
 }
+.firstsix {
+    padding: 0px;
+    margin: 0px;
+    float: right;
+}
+.secondsix {
+    padding: 0px;
+    margin: 0px;
+    float: right;
+}
 .fa {
     padding: 27px;
     border-radius: 50%;
