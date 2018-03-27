@@ -1,0 +1,77 @@
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.welcome {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 120px 0;
+    text-align: right;
+    color: #fff;
+    background: linear-gradient(rgba(0,0,0,0), rgba(211, 211, 211, 0)), url("Background.png") no-repeat bottom center;
+    background-size: cover;
+    font-size: 40px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.whatido {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    background-color: white;
+    background-size: cover;
+}
+.intro {
+    font-size: 15px;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.skills {
+    font-size: 15px;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.projects {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    background-color: white;
+    background-size: cover;
+}
+.whoami {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 200px 0;
+    text-align: center;
+    background-color: white;
+    background: url("Profile.jpg") no-repeat bottom center scroll;
+    background-size: cover;
+}
+.fa {
+    padding: 20px;
+    border-radius: 50%;
+}
+.fa-github {
+    color: black;
+}
+.fa-free-code-camp {
+    color: darkgreen;
+}
+
+
