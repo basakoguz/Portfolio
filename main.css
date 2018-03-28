@@ -78,15 +78,24 @@
 }
 @media screen and (max-width : 768px)
 {
+    .welcome{
+        padding: 270px 0;
+    }
     .intro {
         padding-top: 10px;
     }
     .skills {
         padding-top: 10px;
     }
+    .icons {
+        padding-left: 15px;
+    }
 }
 @media screen and (min-width : 769px)
 {
+    .welcome{
+        padding: 300px 0;
+    }
     .intro {
         padding-top: 25px;
     }
