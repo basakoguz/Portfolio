@@ -68,6 +68,9 @@
 }
 @media screen and (max-width : 500px)
 {
+    .hi {
+        font-weight: 300;
+    }
     .whatido {
         font-size: 14px;
         padding: 80px 0;
