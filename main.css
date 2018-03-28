@@ -36,21 +36,23 @@
     background-size: cover;
     word-spacing: 3px;
     font-family: 'Raleway', sans-serif;    
-    font-size: 16px;
 }
 .intro {
     color: black;
+    font-size: 17px;
     font-weight: 100;
     text-align: left;
 }
 .skills {
     color: black;
+    font-size: 18px;
     font-weight: 300;
     letter-spacing: 1px;
     text-align: left;
     word-spacing: 5px;
 }
 .compskills {
+    font-size: 18px;
     word-spacing: 15px;
 }
 .icons {
@@ -67,14 +69,15 @@
 @media screen and (max-width : 500px)
 {
     .whatido {
-        font-size:13px;
+        font-size: 14px;
         padding: 80px 0;
     }
-    .compskills {
-        word-spacing: 10px;
+    .skills {
+        font-size: 15px;
     }
-    .icons {
-        align-items: center;
+    .compskills {
+        font-size: 15px;
+        word-spacing: 10px;
     }
 }
 .fa {
@@ -96,10 +99,11 @@
     text-decoration: none;
 }
 .hackerrank {
-    width: 85px;
+    width: 87px;
     height: auto;
-    padding: 20px;
-    padding-bottom: 40px;
+    padding: 15px;
+    padding-bottom: 37px;
+    padding-left: 29px;
 }
 .hackerrank:hover {
     filter: opacity(50%);
