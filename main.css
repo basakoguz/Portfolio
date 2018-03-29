@@ -126,7 +126,7 @@
     background-size: cover;
     background-position: center;
 }
-@media screen and (max-width : 400px)
+@media screen and (max-width : 6.7cm)
 {
     .hello {
         font-size: 40px;
@@ -147,7 +147,7 @@
         padding-top: 40px;
     }
 }
-@media screen and (min-width : 401px)
+@media screen and (min-width : 6.71cm)
 {
     .welcome{
         padding: 320px 0;
@@ -166,7 +166,7 @@
         padding-top: 40px;
     }
 }
-@media screen and (min-width : 600px)
+@media screen and (min-width : 13.47cm)
 {
     .welcome{
         padding: 420px 0;
@@ -176,7 +176,7 @@
         padding-top: 0px;
     }
 }
-@media screen and (min-width : 769px)
+@media screen and (min-width : 730cm)
 {
     .welcome{
         padding: 300px 0;
