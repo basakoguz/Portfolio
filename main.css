@@ -9,7 +9,7 @@
     display: table;
     width: 100%;
     height: auto;
-    padding: 200px 0;
+    padding: 300px 0;
     text-align: right;
     color: #fff;
     background: linear-gradient(rgba(0,0,0,0.8), rgba(0, 0, 0, 0.4)), url("Background.jpg") no-repeat bottom center;
@@ -146,6 +146,7 @@
     }
     .icons {
         padding-top: 40px;
+        padding-left: 20px;
     }
 }
 @media screen and (min-width : 13cm)
