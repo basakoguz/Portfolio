@@ -30,6 +30,7 @@
     padding: 50px 0;
     padding-top: 100px;
     padding-bottom: 100px;
+    padding-left: 2px;
     word-spacing: 3px;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
@@ -156,7 +157,16 @@
         font-size: 50px;
     }
     whatido {
-        padding-left: 15px
+        padding-left: 15px;
+    }
+    .intro {
+        font-size: 16px;
+    }
+    .skills {
+        font-size: 17px;
+    }
+    .computerskills {
+        font-size: 17px;
     }
     .icons {
         padding-top: 0px;
@@ -165,21 +175,21 @@
 @media screen and (min-width : 30cm)
 {
     .welcome {
-        padding: 300px 0;
+        padding: 320px 0;
         background-attachment: fixed;
     }
     .whatido {
         padding-left: 10px;
     }
     .intro {
-        padding-top: 10px;
+        padding-top: 9px;
     }
     .skills {
         padding-top: 15px;
-        word-spacing: 5px;
+        word-spacing: 10px;
     }
     .computerskills {
-        word-spacing: 10px;
+        word-spacing: 17px;
     }
     .icons {
         padding-top: 15px;
