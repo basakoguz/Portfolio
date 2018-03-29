@@ -16,7 +16,7 @@
     background-size: cover;
 }
 .hello {
-    font-size: 60px;
+    font-size: 40px;
     color: white;
     font-family: 'Lato', sans-serif;
     font-weight: 200;
@@ -27,11 +27,12 @@
     display: table;
     width: 100%;
     height: auto;
+    padding: 50px 0;
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 20px;
     word-spacing: 3px;
     font-family: 'Raleway', sans-serif;
+    font-size: 14px;
 }
 .intro {
     color: black;
@@ -41,17 +42,19 @@
 }
 .skills {
     color: black;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 300;
     letter-spacing: 1px;
     text-align: left;
     word-spacing: 5px;
 }
 .compskills {
-    font-size: 18px;
-    word-spacing: 15px;
+    font-size: 15px;
+    word-spacing: 10px;
 }
 .icons {
+    padding-left: 0px;
+    padding-top: 40px;
     float: right;
 }
 .fa {
@@ -126,29 +129,7 @@
     background-position: center;
     filter: contrast(50%);
 }
-@media screen and (max-width : 7cm)
-{
-    .hello {
-        font-size: 40px;
-    }
-    .whatido {
-        font-size: 14px;
-        padding-left: 0px;
-        padding: 50px 0;
-    }
-    .skills {
-        font-size: 15px;
-    }
-    .compskills {
-        font-size: 10px;
-        word-spacing: 10px;
-    }
-    .icons {
-        padding-left: 0px;
-        padding-top: 40px;
-    }
-}
-@media screen and (min-width : 7.1cm)
+@media screen and (min-width : 8cm)
 {
     .welcome{
         padding: 340px 0;
@@ -163,7 +144,6 @@
         padding-top: 10px;
     }
     .icons {
-        padding-left: 15px;
         padding-top: 40px;
     }
 }
@@ -171,21 +151,35 @@
 {
     .welcome{
         padding: 440px 0;
+        background-attachment: fixed;
+    }
+    .hello {
+        font-size: 50px;
     }
     .icons {
-        padding-left: 15px;
         padding-top: 0px;
     }
 }
 @media screen and (min-width : 30cm)
 {
     .welcome {
-        padding: 320px 0;
+        padding: 300px 0;
+        background-attachment: fixed;
+    }
+    .whatido {
+        padding-left: 10px;
     }
     .intro {
-        padding-top: 25px;
+        padding-top: 10px;
     }
     .skills {
+        padding-top: 15px;
+        word-spacing: 5px;
+    }
+    .computerskills {
+        word-spacing: 10px;
+    }
+    .icons {
         padding-top: 15px;
     }
 }
