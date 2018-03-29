@@ -126,7 +126,7 @@
     background-size: cover;
     background-position: center;
 }
-@media screen and (max-width : 6.8cm)
+@media screen and (max-width : 6.9cm)
 {
     .hello {
         font-size: 40px;
@@ -147,7 +147,7 @@
         padding-top: 40px;
     }
 }
-@media screen and (min-width : 6.81cm)
+@media screen and (min-width : 7cm)
 {
     .welcome{
         padding: 320px 0;
