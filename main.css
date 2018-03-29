@@ -133,13 +133,14 @@
     }
     .whatido {
         font-size: 14px;
+        padding-left: 0px;
         padding: 50px 0;
     }
     .skills {
         font-size: 15px;
     }
     .compskills {
-        font-size: 15px;
+        font-size: 10px;
         word-spacing: 10px;
     }
     .icons {
