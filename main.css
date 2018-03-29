@@ -12,22 +12,18 @@
     padding: 250px 0;
     text-align: right;
     color: #fff;
-    background: linear-gradient(rgba(0,0,0,0), rgba(211, 211, 211, 0)), url("Background.png") no-repeat bottom center;
+    background: linear-gradient(rgba(0,0,0,0), rgba(211, 211, 211, 0)), url("Background.jpg") no-repeat bottom center;
     background-size: cover;
-    background-attachment: fixed;
+    background-position: scroll;
 }
 .hello {
-    font-size: 40px;
+    font-size: 60px;
     color: white;
     font-family: 'Lato', sans-serif;
     font-weight: 200;
     letter-spacing: 1px;
-    text-shadow: 2px 2px 2px dimgray;
-}
-.hello:hover {
-    color:white;
-    font-weight: 300;
-    text-decoration: none;
+    text-shadow: 2px 2px 2px black;
+    padding-bottom: 40px;
 }
 .whatido {
     display: table;
@@ -60,63 +56,6 @@
 .icons {
     float: right;
 }
-@media screen and (max-width : 429px)
-{
-    .whatido {
-        font-size: 14px;
-        padding: 50px 0;
-    }
-    .skills {
-        font-size: 15px;
-    }
-    .compskills {
-        font-size: 15px;
-        word-spacing: 10px;
-    }
-    .icons {
-        padding-left: 25px;
-        padding-top: 40px;
-    }
-}
-@media screen and (min-width : 430px)
-{
-    .welcome{
-        padding: 320px 0;
-    }
-    .intro {
-        padding-top: 10px;
-    }
-    .skills {
-        padding-top: 10px;
-    }
-    .icons {
-        padding-left: 25px;
-        padding-top: 40px;
-    }
-}
-@media screen and (min-width : 600px)
-{
-    .welcome{
-        padding: 420px 0;
-    }
-    .icons {
-        padding-left: 15px;
-        padding-top: 0px;
-    }
-}
-@media screen and (min-width : 769px)
-{
-    .welcome{
-        padding: 300px 0;
-    }
-    .intro {
-        padding-top: 25px;
-    }
-    .skills {
-        padding-top: 15px;
-    }
-}
-
 .fa {
     padding: 27px;
     border-radius: 50%;
@@ -175,7 +114,7 @@
     width: 100%;
     height: auto;
     padding: 100px 0;
-    background-color: white;
+    background: transparent;
     background-size: cover;
 }
 .whoami {
@@ -187,4 +126,66 @@
     background: url("Profile.jpg") no-repeat scroll;
     background-size: cover;
     background-position: center;
+}
+@media screen and (max-width : 429px)
+{
+    .hello {
+        font-size: 40px;
+    }
+    .whatido {
+        font-size: 14px;
+        padding: 50px 0;
+    }
+    .skills {
+        font-size: 15px;
+    }
+    .compskills {
+        font-size: 15px;
+        word-spacing: 10px;
+    }
+    .icons {
+        padding-left: 25px;
+        padding-top: 40px;
+    }
+}
+@media screen and (min-width : 430px)
+{
+    .welcome{
+        padding: 320px 0;
+    }
+    .hello {
+        font-size: 45px;
+    }
+    .intro {
+        padding-top: 10px;
+    }
+    .skills {
+        padding-top: 10px;
+    }
+    .icons {
+        padding-left: 25px;
+        padding-top: 40px;
+    }
+}
+@media screen and (min-width : 600px)
+{
+    .welcome{
+        padding: 420px 0;
+    }
+    .icons {
+        padding-left: 15px;
+        padding-top: 0px;
+    }
+}
+@media screen and (min-width : 769px)
+{
+    .welcome{
+        padding: 300px 0;
+    }
+    .intro {
+        padding-top: 25px;
+    }
+    .skills {
+        padding-top: 15px;
+    }
 }
