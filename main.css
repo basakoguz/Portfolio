@@ -126,7 +126,7 @@
     background-position: center;
     filter: contrast(50%);
 }
-@media screen and (max-width : 6.9cm)
+@media screen and (max-width : 7cm)
 {
     .hello {
         font-size: 40px;
@@ -148,7 +148,7 @@
         padding-top: 40px;
     }
 }
-@media screen and (min-width : 7cm)
+@media screen and (min-width : 7.1cm)
 {
     .welcome{
         padding: 340px 0;
@@ -163,7 +163,7 @@
         padding-top: 10px;
     }
     .icons {
-        padding-left: 20px;
+        padding-left: 15px;
         padding-top: 40px;
     }
 }
@@ -179,7 +179,7 @@
 }
 @media screen and (min-width : 30cm)
 {
-    .welcome{
+    .welcome {
         padding: 320px 0;
     }
     .intro {
