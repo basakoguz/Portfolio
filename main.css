@@ -126,7 +126,7 @@
     background-size: cover;
     background-position: center;
 }
-@media screen and (max-width : 429px)
+@media screen and (max-width : 400px)
 {
     .hello {
         font-size: 40px;
