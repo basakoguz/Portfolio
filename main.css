@@ -16,7 +16,7 @@
     background-size: cover;
 }
 .hello {
-    font-size: 10px;
+    font-size: 100px;
     color: white;
     font-family: 'Lato', sans-serif;
     font-weight: 200;
@@ -54,7 +54,6 @@
     word-spacing: 10px;
 }
 .icons {
-    padding-left: 0px;
     padding-top: 40px;
     float: right;
 }
