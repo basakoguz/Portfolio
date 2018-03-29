@@ -9,14 +9,14 @@
     display: table;
     width: 100%;
     height: auto;
-    padding: 300px 0;
+    padding: 200px 0;
     text-align: right;
     color: #fff;
     background: linear-gradient(rgba(0,0,0,0.8), rgba(0, 0, 0, 0.4)), url("Background.jpg") no-repeat bottom center;
     background-size: cover;
 }
 .hello {
-    font-size: 20px;
+    font-size: 25px;
     color: white;
     font-family: 'Lato', sans-serif;
     font-weight: 200;
@@ -28,7 +28,7 @@
     width: 100%;
     height: auto;
     padding: 50px 0;
-    padding-top: 100px;
+    padding-top: 70px;
     padding-bottom: 100px;
     padding-left: 2px;
     word-spacing: 3px;
@@ -37,20 +37,20 @@
 }
 .intro {
     color: black;
-    font-size: 17px;
+    font-size: 13px;
     font-weight: 100;
     text-align: left;
 }
 .skills {
     color: black;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 300;
     letter-spacing: 1px;
     text-align: left;
     word-spacing: 5px;
 }
 .compskills {
-    font-size: 15px;
+    font-size: 13px;
     word-spacing: 10px;
 }
 .icons {
@@ -129,10 +129,13 @@
     background-position: center;
     filter: contrast(50%);
 }
-@media screen and (min-width : 7cm)
+@media screen and (min-width : 7.1cm)
 {
-    .welcome{
+    .welcome {
         padding: 320px 0;
+    }
+    .whatido {
+        padding-top: 100px;
     }
     .hello {
         font-size: 35px;
