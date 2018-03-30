@@ -49,7 +49,7 @@
     text-align: left;
     word-spacing: 5px;
 }
-.compskills {
+.computerskills {
     font-size: 13px;
     word-spacing: 10px;
 }
@@ -142,14 +142,14 @@
     }
     .intro {
         padding-top: 20px;
-        font-size: 16px;
+        font-size: 14px;
     }
     .skills {
         padding-top: 10px;
-        font-size: 17px;
+        font-size: 15px;
     }
     .computerskills {
-        font-size: 17px;
+        font-size: 15px;
     }
     .icons {
         padding-top: 40px;
@@ -180,6 +180,12 @@
         padding-top: 0px;
     }
 }
+@media screen and (min-width : 20cm)
+{
+    .welcome{
+        padding: 350px 0;
+    }
+}
 @media screen and (min-width : 30cm)
 {
     .welcome {
@@ -194,7 +200,7 @@
     }
     .skills {
         padding-top: 15px;
-        word-spacing: 10px;
+        word-spacing: 8px;
     }
     .computerskills {
         word-spacing: 17px;
