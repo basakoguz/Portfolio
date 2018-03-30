@@ -36,8 +36,8 @@
 }
 .intro {
     color: black;
-    font-size: 14px;
-    font-weight: 100;
+    font-size: 16px;
+    font-weight: 300;
     text-align: left;
 }
 .skills {
@@ -134,14 +134,14 @@
         padding: 320px 0;
     }
     .whatido {
-        padding-top: 100px;
+        padding-top: 90px;
     }
     .hello {
         font-size: 35px;
     }
     .intro {
         padding-top: 20px;
-        font-size: 25px;
+        font-size: 17px;
     }
     .skills {
         padding-top: 10px;
@@ -167,13 +167,13 @@
         padding-left: 15px;
     }
     .intro {
-        font-size: 16px;
+        font-size: 17px;
     }
     .skills {
-        font-size: 17px;
+        font-size: 16px;
     }
     .computerskills {
-        font-size: 17px;
+        font-size: 16px;
     }
     .icons {
         padding-top: 0px;
