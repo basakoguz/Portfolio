@@ -54,7 +54,7 @@
 }
 .icons {
     padding-top: 40px;
-    float: right;
+    width: 60%; 
 }
 .fa {
     padding: 27px;
@@ -153,6 +153,7 @@
     .icons {
         padding-top: 40px;
         padding-left: 20px;
+        width: auto;
     }
 }
 @media screen and (min-width : 13cm)
