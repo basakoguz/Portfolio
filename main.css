@@ -23,39 +23,12 @@
     letter-spacing: 1px;
     text-shadow: 2px 2px 2px black;
 }
-.arrow, .arrow:before {
-    position: absolute;
-    left: 50%;
+.glyphicon {
+    color:white;
+    transform: translate(-110px, 20px);
 }
-.arrow {
-    width: 40px;
-    height: 40px;
-    top: 50%;
-    margin: -20px 0 0 -20px;
-    -webkit-transform: rotate(45deg);
-    border-left: none;
-    border-top: none;
-    border-right: 2px #fff solid;
-    border-bottom: 2px #fff solid;
-}  
-.arrow:before {
-    content: '';
-    width: 20px;
-    height: 20px;
-    top: 50%;
-    margin: -10px 0 0 -10px;
-    border-left: none;
-    border-top: none;
-    border-right: 1px #fff solid;
-    border-bottom: 1px #fff solid;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-name: arrow;
-} 
-@keyframes arrow {
-    0% {opacity: 1}
-    100% {opacity: 0}
-    transform: translate(-10px, -10px);
+.glyphicon:hover {
+    filter: brightness(120%);
 }
 .whatido {
     display: table;
@@ -88,7 +61,6 @@
 }
 .icons {
     padding-top: 40px;
-    width: 30%; 
 }
 .fa {
     padding: 27px;
@@ -162,12 +134,7 @@
     background-position: center;
     filter: contrast(50%);
 }
-@media screen and (max-width : 7cm)
-{
-    .icons {
-        transform: scale(0.7);
-    }
-}
+
 @media screen and (min-width : 7.1cm)
 {
     .welcome {
@@ -179,6 +146,7 @@
     .hello {
         font-size: 35px;
     }
+    
     .intro {
         padding-top: 20px;
         font-size: 17px;
@@ -193,8 +161,6 @@
     .icons {
         padding-top: 40px;
         padding-left: 20px;
-        transform: scaleX(0.7);
-        transform: scaleY(0.7);
     }
 }
 @media screen and (min-width : 13cm)
@@ -204,6 +170,9 @@
     }
     .hello {
         font-size: 50px;
+    }
+    .glyphicon {
+    transform: translate(-160px, 20px);
     }
     whatido {
         padding-left: 15px;
