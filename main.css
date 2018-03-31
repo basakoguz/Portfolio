@@ -23,6 +23,40 @@
     letter-spacing: 1px;
     text-shadow: 2px 2px 2px black;
 }
+.arrow, .arrow:before {
+    position: absolute;
+    left: 50%;
+}
+.arrow {
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    margin: -20px 0 0 -20px;
+    -webkit-transform: rotate(45deg);
+    border-left: none;
+    border-top: none;
+    border-right: 2px #fff solid;
+    border-bottom: 2px #fff solid;
+}  
+.arrow:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    margin: -10px 0 0 -10px;
+    border-left: none;
+    border-top: none;
+    border-right: 1px #fff solid;
+    border-bottom: 1px #fff solid;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: arrow;
+} 
+@keyframes arrow {
+    0% {opacity: 1}
+    100% {opacity: 0}
+    transform: translate(-10px, -10px);
+}
 .whatido {
     display: table;
     width: 100%;
@@ -128,6 +162,13 @@
     background-position: center;
     filter: contrast(50%);
 }
+@media screen and (max-width : 7cm)
+{
+    .icons {
+        transform: scaleX(0.7);
+        transform: scaleY(0.7);
+    }
+}
 @media screen and (min-width : 7.1cm)
 {
     .welcome {
@@ -153,7 +194,8 @@
     .icons {
         padding-top: 40px;
         padding-left: 20px;
-        width: auto;
+        transform: scaleX(0.7);
+        transform: scaleY(0.7);
     }
 }
 @media screen and (min-width : 13cm)
@@ -189,7 +231,7 @@
 @media screen and (min-width : 30cm)
 {
     .welcome {
-        padding: 320px 0;
+        padding: 340px 0;
         background-attachment: fixed;
     }
     .whatido {
