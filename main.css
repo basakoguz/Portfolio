@@ -23,6 +23,9 @@
     color:white;
     transform: translate(-115px, 20px);
 }
+.glyphicon:hover {
+    
+}
 .whatido {
     display: table;
     width: 100%;
@@ -118,7 +121,6 @@
     font-family: 'Raleway', sans-serif;
     text-align: center;
 }
-
 .whoami {
     display: table;
     width: 100%;
