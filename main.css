@@ -1,9 +1,5 @@
-.navbar-fixed-top {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
+.navbar {
+    font-family: 'Raleway', sans-serif; 
 }
 .welcome {
     display: table;
@@ -25,7 +21,7 @@
 }
 .glyphicon {
     color:white;
-    transform: translate(-110px, 20px);
+    transform: translate(-115px, 20px);
 }
 .glyphicon:hover {
     filter: brightness(120%);
