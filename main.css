@@ -165,8 +165,7 @@
 @media screen and (max-width : 7cm)
 {
     .icons {
-        transform: scaleX(0.7);
-        transform: scaleY(0.7);
+        transform: scale(0.7);
     }
 }
 @media screen and (min-width : 7.1cm)
