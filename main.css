@@ -68,6 +68,10 @@
     padding: 27px;
     border-radius: 50%;
 }
+.fa-linkedin {
+    padding: 15px;
+    width: 70px;
+}
 .fa-linkedin:hover {
     color: #0077B5;
     filter: opacity(50%);
@@ -75,7 +79,8 @@
 }
 .fa-github {
     color: black;
-    padding: 30px;
+    padding: 17px;
+    width: 70px;
 }
 .fa-github:hover {
     color: black;
@@ -83,16 +88,17 @@
     text-decoration: none;
 }
 .hackerrank {
-    width: 80px;
+    width: 70px;
     height: auto;
-    padding: 15px;
-    padding-bottom: 37px;
+    padding: 17px;
+    padding-bottom: 40px;
 }
 .hackerrank:hover {
     filter: opacity(50%);
 }
 .fa-free-code-camp {
     color: darkgreen;
+    padding: 17px;
 }
 .fa-free-code-camp:hover {
     color: darkgreen;
@@ -101,6 +107,9 @@
 }
 .fa-stack-overflow {
     color: #FF9900;
+    width: 70px;
+    padding: 15px;
+    padding-right: 50px;
 }
 .fa-stack-overflow:hover {
     color: #FF9900;
@@ -109,6 +118,7 @@
 }
 .fa-google {    
     color: #dd4b39;
+    padding: 17px;
 }
 .fa-google:hover {
     color: #dd4b39;
