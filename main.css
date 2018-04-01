@@ -1,8 +1,11 @@
 .navbar {
     font-family: 'Raleway', sans-serif;
 }
+nav {
+    color: white !important;
+}
 .navbar-inverse {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0, 0, 0, 0.8)) !important;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0, 0, 0, 0.6)) !important;
 }
 .welcome {
     display: table;
