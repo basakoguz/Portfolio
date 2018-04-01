@@ -1,5 +1,13 @@
 /*jslint browser: true*/
 /*global $, jQuery*/
+
+$("#learnmore").click(function () {
+    "use strict";
+    $('html,body').animate({
+        scrollTop: $("#whatido").offset().top
+    }, 'slow');
+});
+
 $("#first").click(function () {
     "use strict";
     $('html,body').animate({
