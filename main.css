@@ -3,7 +3,6 @@
     width: 100%;
     height: auto;
     padding: 70px 0;
-    text-align: right;
     color: #fff;
     background: linear-gradient(rgba(0,0,0,0.8), rgba(0, 0, 0, 0.4)), url("Background.jpg") no-repeat bottom center;
     background-size: cover;
@@ -15,10 +14,12 @@
     font-weight: 200;
     letter-spacing: 1px;
     text-shadow: 2px 2px 2px black;
+    transform: translate(0px, -50px);
+    
 }
 .glyphicon {
     color:white;
-    transform: translate(-115px, 20px);
+    transform: translate(0px, -40px);
 }
 .whatido {
     display: table;
@@ -177,7 +178,6 @@
         font-size: 50px;
     }
     .glyphicon {
-        transform: translate(-160px, 20px);
     }
     .whatido {
         text-align: left;
