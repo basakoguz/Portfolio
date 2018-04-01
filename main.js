@@ -1,6 +1,11 @@
 /*jslint browser: true*/
 /*global $, jQuery*/
 
+$('.navbar-collapse ul li a').click(function () {
+    "use strict";
+    $('.navbar-toggle:visible').click();
+});
+
 $("#learnmore").click(function () {
     "use strict";
     $('html,body').animate({
