@@ -14,12 +14,12 @@
     font-weight: 200;
     letter-spacing: 1px;
     text-shadow: 2px 2px 2px black;
-    transform: translate(0px, -50px);
+    transform: translate(0px, -40px);
     
 }
 .glyphicon {
     color:white;
-    transform: translate(0px, -40px);
+    transform: translate(0px, -30px);
 }
 .whatido {
     display: table;
