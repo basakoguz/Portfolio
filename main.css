@@ -1,5 +1,8 @@
 .navbar {
-    font-family: 'Raleway', sans-serif; 
+    font-family: 'Raleway', sans-serif;
+}
+.navbar-inverse {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0, 0, 0, 0.8)) !important;
 }
 .welcome {
     display: table;
