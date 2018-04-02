@@ -1,10 +1,14 @@
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
 .welcome {
     display: table;
     width: 100%;
     height: auto;
     padding: 70px 0;
     color: #fff;
-    background: linear-gradient(rgba(0,0,0,0.8), rgba(0, 0, 0, 0.4)), url("Background.jpg") no-repeat bottom center;
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0, 0, 0, 0.2)), url("Background.jpg") no-repeat bottom center;
     background-size: cover;
 }
 .hello {
@@ -15,18 +19,16 @@
     letter-spacing: 1px;
     text-shadow: 2px 2px 2px black;
     transform: translate(0px, -40px);
-    
 }
 .glyphicon {
     color:white;
-    transform: translate(0px, -30px);
+    transform: translate(0px, -40px);
 }
 .whatido {
     display: table;
     width: 100%;
     height: auto;
     padding: 150px 0;
-    padding-left: 2px;
     word-spacing: 3px;
     font-family: 'Raleway', sans-serif;
     align-content: center;
@@ -129,19 +131,31 @@
 .projects {
     width: 100%;
     height: auto;
-    padding: 250px 0;
+    padding: 300px 0;
+    color:white;
+    background: linear-gradient(rgba(255,255,255,0), rgba(255, 255, 255, 0)), url("Projects.png") no-repeat bottom center;
     background-size: cover;
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
     text-align: center;
 }
 .whoami {
-    padding: 300px 0;
-    background-color: white;
-    background: linear-gradient(rgba(255,255,255,0.1), rgba(255, 255, 255, 0.1)), url("Profile.jpg") no-repeat;
-    background-position: center;
+    padding: 40px 0;
+}
+.tobefilled{
+    padding: 150px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+}
+.profile {
+    padding: 200px;
+    max-width: 100%;
+    max-height: 100%;
+    background: linear-gradient(rgba(255,255,255,1), rgba(255, 255, 255, 0.5)), url(Profile2.jpg) no-repeat bottom center;
     background-size: cover;
-    filter: contrast(50%);
 }
 @media screen and (min-width : 7.1cm)
 {
@@ -152,7 +166,7 @@
         padding-top: 90px;
     }
     .hello {
-        font-size: 35px;
+        font-size: 30px;
     }
     .intro {
         padding-top: 20px;
@@ -175,7 +189,7 @@
         padding: 440px 0;
     }
     .hello {
-        font-size: 50px;
+        font-size: 40px;
     }
     .glyphicon {
     }
@@ -218,9 +232,15 @@
         word-spacing: 15px;
     }
 }
-a:hover {
-    color: rgba(255, 255, 255, 1);
-    text-shadow: 0px 3px 15px rgba(255, 255, 255, 1);
+.bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+@keyframes bounce {
+    50% {
+        transform: translateY(.1px);
+    }
 }
 .navbar, .navbar-inverse, .navbar-brand {
     font-family: 'Raleway', sans-serif;
@@ -230,3 +250,7 @@ a:hover {
 .navbar-inverse .navbar-brand {color:white; background: transparent}
 .navbar-inverse .navbar-nav>li>a{color:white}
 .navbar-inverse .navbar-nav>li>a:hover{font-weight:300}
+a:hover {
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 3px 15px rgba(255, 255, 255, 1);
+}
