@@ -20,7 +20,7 @@ img {
     text-shadow: 2px 2px 2px black;
     transform: translate(0px, -40px);
 }
-.glyphicon {
+#learnmore {
     color:white;
     transform: translate(0px, -40px);
 }
@@ -140,14 +140,13 @@ img {
     text-align: center;
 }
 .whoami {
-    padding: 40px 0;
 }
-.tobefilled{
-    font-family: 'Raleway', sans-serif;
+.copyright {
+    color:black;
+    font-family: 'Lato', sans-serif;
     font-weight: 200;
-    align-items: center;
-    text-align: center;
-    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
 }
 .profile {
     padding-top: 800px;
@@ -155,6 +154,11 @@ img {
     max-height: 100%;
     background: linear-gradient(rgba(255,255,255,0.6), rgba(255, 255, 255, 0.5)), url(Profile2.jpg) no-repeat top center;
     background-size: cover;
+}
+footer {
+    bottom: 0;
+    position: fixed;
+    z-index: 3000;
 }
 @media screen and (min-width : 7.1cm)
 {
