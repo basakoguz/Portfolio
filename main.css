@@ -203,6 +203,12 @@ footer {
     .welcome {
         padding: 350px 0;
     }
+    .whatido {
+        padding: 70px;
+    }
+    .icons {
+        padding-top: 30px;
+    }
 }
 @media screen and (min-width : 30cm)
 {
