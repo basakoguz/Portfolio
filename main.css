@@ -46,6 +46,7 @@ img {
     font-weight: 300;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 20px;
 }
 .skills {
     color: black;
@@ -175,8 +176,6 @@ footer {
     .computerskills {
         font-size: 15px;
     }
-    .icons {
-    }
 }
 @media screen and (min-width : 13cm)
 {
@@ -185,8 +184,6 @@ footer {
     }
     .hello {
         font-size: 40px;
-    }
-    .glyphicon {
     }
     .whatido {
         text-align: left;
@@ -206,14 +203,6 @@ footer {
     .welcome {
         padding: 350px 0;
     }
-    .intro {
-        padding-top: 9px;
-    }
-    .skills {
-        padding-top: 9px;
-    }
-    .icons {
-    }
 }
 @media screen and (min-width : 30cm)
 {
@@ -222,7 +211,6 @@ footer {
         background-attachment: fixed;
     }
     .skills {
-        padding-top: 15px;
         word-spacing: 6px;
     }
     .computerskills {
