@@ -139,20 +139,28 @@ img {
     text-align: center;
 }
 .whoami {
+    font-family: 'Raleway', sans-serif;
+}
+.content-section {
+    padding: 50px;
+}
+textarea {
+    resize: none;
+}
+.profile {
+    padding-top: 450px;
+    max-width: 100%;
+    max-height: 100%;
+    background: linear-gradient(rgba(255,255,255,0.6), rgba(255, 255, 255, 0.5)), url(Profile2.jpg) no-repeat top center;
+    background-size: cover;
 }
 .copyright {
     color:black;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
 }
-.profile {
-    padding-top: 800px;
-    max-width: 100%;
-    max-height: 100%;
-    background: linear-gradient(rgba(255,255,255,0.6), rgba(255, 255, 255, 0.5)), url(Profile2.jpg) no-repeat top center;
-    background-size: cover;
-}
 footer {
+    padding-left: 15px;
     bottom: 0;
     position: fixed;
 }
