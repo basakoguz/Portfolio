@@ -79,12 +79,22 @@ img {
     filter: opacity(50%);
     text-decoration: none;
 }
+.fa-linkedin:visited {
+    color: #0077B5;
+    filter: opacity(50%);
+    text-decoration: none;
+}
 .fa-github {
     color: black;
     padding: 17px;
     width: 70px;
 }
 .fa-github:hover {
+    color: black;
+    filter: opacity(50%);
+    text-decoration: none;
+}
+.fa-github:visited {
     color: black;
     filter: opacity(50%);
     text-decoration: none;
@@ -98,11 +108,19 @@ img {
 .hackerrank:hover {
     filter: opacity(50%);
 }
+.hackerrank:visited {
+    filter: opacity(50%);
+}
 .fa-free-code-camp {
     color: darkgreen;
     padding: 17px;
 }
 .fa-free-code-camp:hover {
+    color: darkgreen;
+    filter: opacity(50%);
+    text-decoration: none;
+}
+.fa-free-code-camp:visited {
     color: darkgreen;
     filter: opacity(50%);
     text-decoration: none;
@@ -118,11 +136,21 @@ img {
     filter: opacity(50%);
     text-decoration: none;
 }
+.fa-stack-overflow:visited {
+    color: #FF9900;
+    filter: opacity(50%);
+    text-decoration: none;
+}
 .fa-google {    
     color: #dd4b39;
     padding: 17px;
 }
 .fa-google:hover {
+    color: #dd4b39;
+    filter: opacity(50%);
+    text-decoration: none;
+}
+.fa-google:visited {
     color: #dd4b39;
     filter: opacity(50%);
     text-decoration: none;
