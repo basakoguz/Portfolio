@@ -8,21 +8,34 @@ img {
     height: auto;
     padding: 70px 0;
     color: #fff;
-    background: linear-gradient(rgba(0,0,0,0.9), rgba(0, 0, 0, 0.2)), url("Background.jpg") no-repeat bottom center;
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0, 0, 0, 0.6)), url("Background.jpg") no-repeat bottom center;
     background-size: cover;
 }
 .hello {
-    font-size: 25px;
+    font-size: 35px;
     color: white;
     font-family: 'Lato', sans-serif;
     font-weight: 200;
     letter-spacing: 1px;
+    vertical-align: middle;
     text-shadow: 2px 2px 2px black;
-    transform: translate(0px, -40px);
+    transform: translate(0px, -100px);
+}
+.myTitle {
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: 'Lato', sans-serif;
+    padding-top: 20px;
+    transform: translate(0px, -120px);
+}
+hr {
+    transform: translate(0px, -90px);
+    filter: opacity(30%);
 }
 #learnmore {
     color:white;
-    transform: translate(0px, -40px);
+    transform: translate(0px, -150px);
 }
 .whatido {
     display: table;
@@ -197,9 +210,6 @@ footer {
     .whatido {
         padding-top: 30px;
     }
-    .hello {
-        font-size: 30px;
-    }
     .intro {
         font-size: 16px;
     }
@@ -216,7 +226,7 @@ footer {
         padding: 440px 0;
     }
     .hello {
-        font-size: 40px;
+        font-size: 45px;
     }
     .whatido {
         text-align: left;
@@ -259,16 +269,6 @@ footer {
 .glyphicon {
     padding-left: 6px;
     padding-right: 6px;
-}
-.bounce {
-    -moz-animation: bounce 2s infinite;
-    -webkit-animation: bounce 2s infinite;
-    animation: bounce 2s infinite;
-}
-@keyframes bounce {
-    50% {
-        transform: translateY(.1px);
-    }
 }
 .navbar, .navbar-inverse, .navbar-brand {
     font-family: 'Raleway', sans-serif;
