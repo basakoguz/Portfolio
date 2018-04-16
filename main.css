@@ -2,35 +2,40 @@ img {
     max-width: 100%;
     max-height: 100%;
 }
-.video-container {
-    position: relative;
-}
-#myVideo {
-    height: auto;
-    vertical-align: middle;
+.welcome {
+    display: table;
     width: 100%;
-}
-.overlay-desc {
-    background: rgba(0,0,0,0);
-    position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: auto;
+    padding: 70px 0;
+    color: #fff;
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0, 0, 0, 0.6)), url("Background.jpg") no-repeat bottom center;
+    background-size: cover;
 }
 .hello {
     font-size: 35px;
-    color: black;
+    color: white;
     font-family: 'Lato', sans-serif;
     font-weight: 200;
     letter-spacing: 1px;
-    text-align: center;
+    vertical-align: middle;
+    text-shadow: 2px 2px 2px black;
+    transform: translate(0px, -100px);
+}
+.myTitle {
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: 'Lato', sans-serif;
+    padding-top: 20px;
+    transform: translate(0px, -120px);
 }
 hr {
+    transform: translate(0px, -90px);
     filter: opacity(30%);
 }
 #learnmore {
     color:white;
+    transform: translate(0px, -150px);
 }
 .whatido {
     display: table;
@@ -199,6 +204,9 @@ footer {
 }
 @media screen and (min-width : 7.1cm)
 {
+    .welcome {
+        padding: 300px 0;
+    }
     .whatido {
         padding-top: 30px;
     }
@@ -214,6 +222,9 @@ footer {
 }
 @media screen and (min-width : 13cm)
 {
+    .welcome{
+        padding: 440px 0;
+    }
     .hello {
         font-size: 45px;
     }
@@ -232,6 +243,9 @@ footer {
 }
 @media screen and (min-width : 20cm)
 {
+    .welcome {
+        padding: 350px 0;
+    }
     .whatido {
         padding: 70px;
     }
@@ -241,6 +255,10 @@ footer {
 }
 @media screen and (min-width : 30cm)
 {
+    .welcome {
+        padding: 340px 0;
+        background-attachment: fixed;
+    }
     .skills {
         word-spacing: 6px;
     }
