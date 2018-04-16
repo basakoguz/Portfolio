@@ -43,7 +43,11 @@
             </div>
         </nav>
         <div class="video-container" id="home">
-            <video autoplay loop controls="true" id="myVideo" src="Background.mp4" type="video/mp4">Your browser does not support the video tag.
+            <video loop autoplay controls="true" id="myVideo">
+                <source src="Background.mp4" type="video/mp4"/>
+                <source src="Background.ogv" type="video/ogv"/>
+                <source src="Background.webm" type="video/webm"/>
+                Your browser does not support the video tag.
             </video>
             <div class="overlay-desc">
             </div>
